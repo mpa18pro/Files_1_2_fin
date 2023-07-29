@@ -48,5 +48,8 @@ def get_shop_list_by_dishes(dishes, person_quant):
         print(key, ' : ', value)
     return grocery_dict
 
-
+print("Заказаны разные блюда:")
 get_shop_list_by_dishes(['Запеченный картофель', 'Омлет', 'Фахитос', 'Омлет', 'Запеченный картофель'], 5)
+print()
+print("Все заказали одно блюдо:")
+get_shop_list_by_dishes(['Запеченный картофель'], 5)
